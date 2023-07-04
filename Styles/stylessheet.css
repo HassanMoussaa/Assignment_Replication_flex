@@ -1,0 +1,89 @@
+body {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10rem;
+}
+
+.topLeft {
+  flex-grow: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.topMid img {
+  width: 10rem;
+  height: 10rem;
+  padding-left: 20%;
+}
+
+.topRight {
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+.firstSec {
+  width: auto;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3rem;
+  height: 25rem;
+  padding-top: 5%;
+  text-align: center;
+  background-image: url(https://www.thedeliciousbites.com/uploads/b/3a1e53f661e373753ade8f6c6102e28221ecc789a1ad45aa0194b165b6e3fc5f/IMG_3028_1679595277.JPG?width=1600&optimize=medium&height=480&fit=cover&dpr=1.25);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.firstSec span {
+  font-size: 1rem;
+}
+
+.secondSecH2 {
+  text-align: center;
+}
+
+.secondSec {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+  gap: 2%;
+  height: 65rem;
+}
+
+.photo1 img {
+  width: 20rem;
+  height: 20rem;
+}
+.photo2 img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.photo3 img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.photo4 img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.photo5 img {
+  width: 20rem;
+  height: 20rem;
+}
