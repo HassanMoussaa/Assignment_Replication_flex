@@ -61,7 +61,7 @@ header {
   justify-content: start;
   align-content: center;
   gap: 2%;
-  height: 65rem;
+  height: 52rem;
 }
 
 .photo1 img {
@@ -86,4 +86,23 @@ header {
 .photo5 img {
   width: 20rem;
   height: 20rem;
+}
+
+.thirdSec {
+  height: 15rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+
+.thirdSec span {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.thirdSec b p {
+  font-size: 1rem;
+  text-align: center;
 }
