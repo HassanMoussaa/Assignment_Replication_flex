@@ -18,6 +18,15 @@ header {
   gap: 2rem;
 }
 
+.topLeft a {
+  text-decoration: none;
+  color: black;
+}
+
+.topLeft a:hover {
+  text-decoration: underline;
+}
+
 .topMid img {
   width: 10rem;
   height: 10rem;
@@ -64,28 +73,13 @@ header {
   height: 52rem;
 }
 
-.photo1 img {
-  width: 20rem;
-  height: 20rem;
-}
-.photo2 img {
+.secondSec img {
   width: 20rem;
   height: 20rem;
 }
 
-.photo3 img {
-  width: 20rem;
-  height: 20rem;
-}
-
-.photo4 img {
-  width: 20rem;
-  height: 20rem;
-}
-
-.photo5 img {
-  width: 20rem;
-  height: 20rem;
+.secondSec img:hover {
+  filter: brightness(1.1);
 }
 
 .thirdSec {
@@ -127,14 +121,14 @@ header {
 }
 .fourthSec {
   height: 15rem;
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(237, 230, 230);
 }
 .fourthSec h2 {
   padding-top: 2%;
   padding-left: 10%;
   margin-top: 0;
   margin-bottom: 0.8%;
-  border-color: rgb(200, 182, 182);
+  border-color: rgb(237, 230, 230);
 }
 .fourthSec legend {
   padding-left: 10%;
@@ -157,6 +151,11 @@ header {
   border-radius: 7%;
   border: 0.05rem solid;
   border-color: rgb(200, 182, 182);
+  cursor: pointer;
+}
+
+.radio__label:hover {
+  background-color: rgb(224, 221, 221);
 }
 
 .fourthSec button {
@@ -166,6 +165,7 @@ header {
   margin-top: 1%;
   margin-left: 10%;
   padding: 2% 3%;
+  cursor: pointer;
 }
 
 .fifthSec {
@@ -233,6 +233,11 @@ header {
   border-radius: 0.25rem;
   padding: 2%;
 }
+
+.part2 input:hover {
+  border: 0.1rem solid;
+}
+
 #captcha {
   color: rgb(200, 182, 182);
   font-size: 0.6rem;
@@ -280,4 +285,8 @@ footer div {
   border-radius: 50%;
   background-color: black;
   color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
