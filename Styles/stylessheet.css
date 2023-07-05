@@ -246,3 +246,38 @@ header {
   color: white;
   padding: 0.5rem 1rem;
 }
+
+footer {
+  background-color: #dcdcdc;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15%;
+  gap: 10%;
+}
+footer div {
+  width: calc(100% / 3);
+  height: fit-content;
+}
+
+.fot1 img {
+  height: 30%;
+  width: 35%;
+  object-fit: contain;
+}
+
+.fot2 {
+  font-size: 1.4rem;
+}
+
+.fa {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  width: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
