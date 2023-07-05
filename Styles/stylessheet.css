@@ -167,3 +167,82 @@ header {
   margin-left: 10%;
   padding: 2% 3%;
 }
+
+.fifthSec {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  height: 25rem;
+}
+.part1 {
+  padding-left: 10%;
+}
+
+.part1 h3 {
+  font-size: 1.8rem;
+}
+.part1 p {
+  font-size: 1.1rem;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.part2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6%;
+  align-items: start;
+  height: 100%;
+  padding-right: 55%;
+}
+
+#name {
+  width: 27rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+#email {
+  width: 27rem;
+  height: 2rem;
+  cursor: pointer;
+  border: 0.05rem solid;
+  border-color: rgb(200, 182, 182);
+  border-radius: 0.25rem;
+  padding: 2%;
+}
+
+#message {
+  width: 27rem;
+  height: 4rem;
+}
+
+.part2 input[type="text"] {
+  border: 0.05rem solid;
+  border-color: rgb(200, 182, 182);
+  width: 27rem;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 2%;
+}
+#captcha {
+  color: rgb(200, 182, 182);
+  font-size: 0.6rem;
+  width: 95%;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.part2 button {
+  background-color: rgb(121, 121, 121);
+  color: white;
+  padding: 0.5rem 1rem;
+}
