@@ -106,3 +106,64 @@ header {
   font-size: 1rem;
   text-align: center;
 }
+
+.thirdSecPlus {
+  height: 10rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+
+.thirdSecPlus span {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.thirdSecPlus b p {
+  font-size: 1rem;
+  text-align: center;
+}
+.fourthSec {
+  height: 15rem;
+  background-color: rgb(224, 221, 221);
+}
+.fourthSec h2 {
+  padding-top: 2%;
+  padding-left: 10%;
+  margin-top: 0;
+  margin-bottom: 0.8%;
+  border-color: rgb(200, 182, 182);
+}
+.fourthSec legend {
+  padding-left: 10%;
+  padding-bottom: 1%;
+}
+.radio {
+  display: flex;
+  justify-content: start;
+  gap: 1%;
+  padding-left: 10%;
+}
+
+.radio__input {
+  display: none;
+}
+
+.radio__label {
+  padding: 1% 1.5%;
+  background-color: transparent;
+  border-radius: 7%;
+  border: 0.05rem solid;
+  border-color: rgb(200, 182, 182);
+}
+
+.fourthSec button {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1%;
+  margin-left: 10%;
+  padding: 2% 3%;
+}
